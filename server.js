@@ -11,7 +11,7 @@ const MONGO_URL = process.env.MONGO_URL; // Importing the mongodb url
 const FRONTEND = process.env.FRONTEND; // Importing the url domain for origin variable
 
 const corsOptions = {
-  origin: [FRONTEND, "https://example.com"], // give access to this specific domain
+  origin: [FRONTEND, "http://localhost:5173"], // give access to this specific domain
   optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
